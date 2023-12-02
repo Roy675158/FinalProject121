@@ -44,6 +44,8 @@ nav a {
 }
 section {
   margin-bottom: 40px;
+  align-content: center;
+  justify-content: center;
 }
 footer {
   text-align: center;
