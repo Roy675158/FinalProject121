@@ -32,9 +32,6 @@ header {
 }
 .columns {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
 }   
 @media screen and (max-width: 780px) {
   .columns {display: wrap}
