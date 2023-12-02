@@ -11,6 +11,7 @@ h1, h2, nav {
 }      
 p {
   font-weight: bold; 
+  text-align: center; 
 }
 li {
   font-weight: bold;
