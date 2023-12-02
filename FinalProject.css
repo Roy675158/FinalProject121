@@ -1,15 +1,15 @@
 body {
-  background-image: url("BGPIC.png"); 
+   background-image: url("BGPIC.png"); 
   font-family: verdana, sans-serif;
+  margin: 20px;
   border-style: double;
   border-color: lavender;
+  text-align: center;
   text-emphasis: black;
-  text-align: center; 
-  margin-left: auto;
-  margin-right: auto;
-}      
+
+}
 p {
-  font-weight: bold;  
+  font-weight: bold;
 }
 li {
   font-weight: bold;
@@ -27,8 +27,9 @@ header {
   text-align: center;
   background-image: url("title.jpg");
   padding: 10px;
-  margin-bottom: 20px;
-}   
+  margin-bottom: 20px
+  ;
+}
 @media screen and (max-width: 780px) {
   .columns {display: wrap}
   iframe {max-width: 375px }
@@ -44,8 +45,6 @@ nav a {
 }
 section {
   margin-bottom: 40px;
-  align-content: center;
-  justify-content: center;
 }
 footer {
   text-align: center;
@@ -74,17 +73,12 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-.column { 
-  display: flex;
-}
 img {
- max-width: 100%; 
- height: auto;
+ max-width: 30%; 
+ height: 30%;
  border-radius: 50%;
  box-shadow: 10px 10px lightsteelblue;
  margin-left: 25px;
  margin-right: 25px;
- display: flex;
- justify-content: center;
- align-items: center;  
-}  
+ display: inline-block;
+ align-items: center;}  
