@@ -31,10 +31,10 @@ header {
   ;
 }
 .column {
-   display: flex; flex-flow: row wrap;
+   display: flex;
 }     
 @media screen and (max-width: 780px) {
-  .columns {flex-directions: column}
+  .columns {flex-flow: wrap}
   iframe {max-width: 375px }
   nav {flex-direction: column} 
 }
