@@ -34,7 +34,7 @@ header {
    display: flex;
 }     
 @media screen and (max-width: 780px) {
-  .columns {flex-flow: wrap}
+  .columns {display: wrap}
   iframe {max-width: 375px }
   nav {flex-direction: column} 
 }
