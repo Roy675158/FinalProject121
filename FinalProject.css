@@ -5,13 +5,10 @@ body {
   border-style: double;
   border-color: lavender;
   text-emphasis: black;
-}
-h1, h2, nav { 
-   text-align: center
+  text-align: center; 
 }      
 p {
-  font-weight: bold; 
-  text-align: center; 
+  font-weight: bold;  
 }
 li {
   font-weight: bold;
