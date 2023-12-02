@@ -11,6 +11,7 @@ h1, h2, nav {
 }      
 p {
   font-weight: bold;
+  text-align: left; 
 }
 li {
   font-weight: bold;
@@ -31,7 +32,7 @@ header {
   margin-bottom: 20px;
 }   
 @media screen and (max-width: 780px) {
-  .columns {display: flex}
+  .columns {display: wrap}
   iframe {max-width: 375px }
 }
 nav {
