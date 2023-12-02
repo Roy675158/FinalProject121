@@ -75,7 +75,7 @@ ul {
     margin-right: auto;
 }
 .column { 
-  display: flex
+  display: grid
 }
 img {
  max-width: 30%; 
