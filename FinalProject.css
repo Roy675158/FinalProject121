@@ -28,11 +28,7 @@ header {
   text-align: center;
   background-image: url("title.jpg");
   padding: 10px;
-  margin-bottom: 20px
-  ;
-}
-.columns {
-    display: flex;
+  margin-bottom: 20px;
 }   
 @media screen and (max-width: 780px) {
   .columns {display: flex}
