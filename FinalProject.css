@@ -4,10 +4,11 @@ body {
   margin: 20px;
   border-style: double;
   border-color: lavender;
-  text-align: center;
   text-emphasis: black;
-
 }
+h1, h2, nav { 
+   text-align: center
+}      
 p {
   font-weight: bold;
 }
