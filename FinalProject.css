@@ -30,24 +30,19 @@ header {
   margin-bottom: 20px
   ;
 }
-.column { 
-  display: flex
-}     
+     
 @media screen and (max-width: 780px) {
   .columns {flex-directions: column}
   iframe {max-width: 375px }
   nav {flex-direction: column} 
 }
-nav a:hover { 
-   color: pink
-}   
 nav {
   margin-bottom: 20px;
 }
 nav a {
   margin-right: 20px;
   text-decoration: none;
-  color: #333;
+  color: black;
   font-weight: bold;
 }
 section {
