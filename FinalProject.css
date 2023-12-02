@@ -30,7 +30,9 @@ header {
   margin-bottom: 20px
   ;
 }
-     
+.column {
+   display: inline-block
+}     
 @media screen and (max-width: 780px) {
   .columns {flex-directions: column}
   iframe {max-width: 375px }
