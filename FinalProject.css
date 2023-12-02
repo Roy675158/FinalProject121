@@ -1,7 +1,6 @@
 body {
    background-image: url("BGPIC.png"); 
   font-family: verdana, sans-serif;
-  margin: auto;
   border-style: double;
   border-color: lavender;
   text-emphasis: black;
@@ -14,8 +13,7 @@ li {
   font-weight: bold;
 }
 ol {
-    border: 15px lavender;
-    border-style: double;
+    border: 15px double lavender;
     text-align: center;
     width: 50%;
     margin-left: auto;
@@ -53,8 +51,7 @@ footer {
 
 form {
 
-    border: 15px lightsteelblue;
-    border-style: double;
+    border: 15px double lightsteelblue;
     text-align: center;
     width: 50%;
     margin-left: auto;
@@ -64,8 +61,7 @@ h2 {
     font-weight: bold;
 }
 ul {
-    border: 15px lavender;
-    border-style: double;
+    border: 15px double lavender;
     text-align: center;
     width: 50%;
     margin-left: auto;
