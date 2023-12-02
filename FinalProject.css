@@ -35,16 +35,6 @@ header {
     justify-content: center; 
     align-items: center; 
 }
-
-.column {
-    flex: 1;
-    padding: 10px;
-    text-align: center; 
-}
-
-.column img {
-    max-width: 100%; 
-    height: auto;
 }   
 @media screen and (max-width: 780px) {
   .columns {display: wrap}
