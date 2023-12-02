@@ -75,11 +75,11 @@ ul {
     margin-right: auto;
 }
 .column { 
-  display: grid
+  display: flex;
 }
 img {
- max-width: 30%; 
- height: 30%;
+ max-width: 100%; 
+ height: auto;
  border-radius: 50%;
  box-shadow: 10px 10px lightsteelblue;
  margin-left: 25px;
