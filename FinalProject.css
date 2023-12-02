@@ -30,6 +30,22 @@ header {
   margin-bottom: 20px
   ;
 }
+.columns {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center; 
+}
+
+.column img {
+    max-width: 100%; 
+    height: auto;
+}   
 @media screen and (max-width: 780px) {
   .columns {display: wrap}
   iframe {max-width: 375px }
@@ -81,4 +97,5 @@ img {
  margin-left: 25px;
  margin-right: 25px;
  display: inline-block;
- align-items: center;}  
+ align-items: center;
+}  
