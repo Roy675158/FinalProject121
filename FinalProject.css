@@ -31,7 +31,7 @@ header {
   ;
 }
 .column {
-   display: inline-block
+   display: flex; flex-flow: row wrap;
 }     
 @media screen and (max-width: 780px) {
   .columns {flex-directions: column}
